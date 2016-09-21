@@ -3,7 +3,7 @@ var server = express();
 
 /* each ".get" section is 1 page NOTE: landing page is '/'
 as a convention*/
-
+server.use(express.static(__dirname + '/public'));
 server.get('/', function(request, response){
   response.sendFile('public/html/index.html', {root: __dirname });
 });
