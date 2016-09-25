@@ -8,11 +8,11 @@
 <body>
   <header>
     <div  id="login-bar">
-      <a href="/login">Log In</a>
+      <p><a href="/login">Have an account? Log In</a></p>
     </div>
   </header>
   <main id="login-form">
-    <h2>Join Twitta Today.</h2>
+    <h2>Join Twitta today.</h2>
     <form action="/signup">
       <div class= "signup-boxes">
         <label for="name"></label>
@@ -30,15 +30,25 @@
       <div>
         <input type="checkbox" checked>
         <span  class ="checkbox-text">
-          Tailor Twitta based on my recent website visits.<span>Learn More.
+          Tailor Twitta based on my recent website visits.
+          <span class="flavorlink"><a href="/signup">Learn More. </a>
           </span>
         </span>
         <!-- this makes the checkbox pre-checked -->
       </div>
       <br>
-      <button type ="submit">Sign Up</button>
-
+      <button type ="submit" class ="signupbtn">Sign Up</button>
     </form>
+    <p> By signing up, you agree to the <span class="flavorlink"><a href="/signup">Terms of Service</a></span> and
+      <span class="flavorlink"><a href="/signup">Privacy Policy</a></span>,
+      <br>
+       including <span class="flavorlink"><a href="/signup">Cookie Use.</a></span> Others will be able to find you by email or phone
+       <br>
+       number when provided.
+       <br>
+       <br>
+       <span class ="flavorlink"><a href="/signup">Advanced options</a></span>
+    </p>
   </main>
 
 </body>
