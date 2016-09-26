@@ -37,14 +37,14 @@ p {
 
 #login-bar a {
   color: white;
-  margin-left: 88%;
+  margin-left: 80%;
   margin-top: 5px;
   position: absolute;
   font-size: 12px;
 }
 
 #login-form {
-  margin: auto 36%;
+  margin: 0px 36%;
   width: 500px
 
 }
